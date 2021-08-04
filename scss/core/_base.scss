@@ -1,0 +1,148 @@
+/*Reset*/
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/*Styles for demonstration*/
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+}
+
+.block {
+  padding: 50px;
+  max-width: 1170px;
+  margin: 0 auto;
+
+  &__item {
+    margin: 0 0 30px 0;
+  }
+}
+
+/*Main styles*/
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+
+  &:hover {
+    cursor: pointer;
+    background-color: red;
+  }
+}
+
+.rectangle {
+  width: 300px;
+  height: 150px;
+  background-color: green;
+
+  &:hover {
+    cursor: pointer;
+    background-color: red;
+  }
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  border-radius: 50%;
+
+  &:hover {
+    cursor: pointer;
+   background-color: red;
+  }
+}
+
+.oval {
+  width: 300px;
+  height: 150px;
+  background-color: green;
+  border-radius: 50%;
+
+  &:hover {
+    cursor: pointer;
+    background-color: red;
+  }
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid green;
+
+  &:hover {
+    cursor: pointer;
+    border-bottom: 100px solid red;
+  }
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid green;
+
+  &:hover {
+    cursor: pointer;
+    border-top: 100px solid red;
+  }
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid green;
+  border-bottom: 50px solid transparent;
+
+  &:hover {
+    cursor: pointer;
+    border-right: 100px solid red;
+  }
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid green;
+  border-bottom: 50px solid transparent;
+
+  &:hover {
+    cursor: pointer;
+    border-left: 100px solid red;
+  }
+}
+
+.parallelogram {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  transform: skew(15deg);
+
+  &:hover {
+    cursor: pointer;
+    background-color: red;
+  }
+}
+
+.trapezoid {
+  width: 200px;
+  border-bottom: 100px solid green;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+
+  &:hover {
+    cursor: pointer;
+    border-bottom: 100px solid red;
+  }
+}
